@@ -52,11 +52,22 @@
     cursor: pointer;
 }
 
+
+
+@keyframes slidein {
+    from {right: -100%;}
+    to {right: 0;}
+}
+@keyframes slideout {
+    from {right: 0;}
+    to {right: -100%;}
+}
+
+
 .mobile-menu-closed{
     display: none;
    
 }
-
 .mobile-menu-open{
     position: fixed;
     top: 0;
@@ -65,7 +76,8 @@
     height: 100%;
     background-color: var(--mobile-menu-color);
     z-index: 1;
-
+    animation-name: slidein;
+    animation-duration: .2s;
 }
 
 .mobile-menu-close-button{
