@@ -3,19 +3,19 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 
-const SeansRecord = ()=>{
+const Endorsements = ()=>{
 
     return(
         <div>
             <Navbar></Navbar>
 
-            Seans record
-            <Footer></Footer>
 
+            Endorsements
+            <Footer></Footer>
 
         </div>
     )
 }
 
 
-export default SeansRecord;
+export default Endorsements;

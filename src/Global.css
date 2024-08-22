@@ -1,9 +1,12 @@
 
 :root{
+  --secondary-color: white;
   --primary-color: #486cb5;
-  --link-hover: #cacaca;
-  --mobile-menu-color: #292929
-
+  --link-hover: #292929;
+  --mobile-menu-color: #292929;
+  --border-color: #b53a3a;
 
 }
+
+
 

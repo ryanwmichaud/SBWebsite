@@ -3,19 +3,19 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 
-const SeansRecord = ()=>{
+const District14Map = ()=>{
 
     return(
         <div>
             <Navbar></Navbar>
 
-            Seans record
-            <Footer></Footer>
 
+            District14Map
+            <Footer></Footer>
 
         </div>
     )
 }
 
 
-export default SeansRecord;
+export default District14Map;

@@ -3,19 +3,18 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 
-const SeansRecord = ()=>{
+const PageNotFound = ()=>{
 
     return(
         <div>
             <Navbar></Navbar>
-
-            Seans record
+            Page Not Found
+            <img src="./public/favicon.png"></img>
             <Footer></Footer>
-
 
         </div>
     )
 }
 
 
-export default SeansRecord;
+export default PageNotFound;
