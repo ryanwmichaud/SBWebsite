@@ -14,6 +14,19 @@ import PageNotFound from './pages/PageNotFound';
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+/*
+export const GlobalContext  = createContext()
+
+export const GlobalProvider = ({ children }) => {
+  return (
+    <GlobalContext.Provider value={{}}>
+      {children}
+    </GlobalContext.Provider>
+  )
+
+}
+*/
+
 
 function App() {
   return (

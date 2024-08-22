@@ -6,4 +6,35 @@
     background-color: var(--primary-color);
     padding: 100px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home-page-portrait{
+    width: 200px;
+}
+
+.donate-button{
+    color: var(--border-color);
+    cursor: pointer;
+    background-color: white;
+    font-size: 25px;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+    border: solid black;
+    margin-top: 30px;
+    transition: color 0.2s , background-color 0.2s ;
+    
+}
+
+
+
+.donate-button:hover{
+    color: white;
+    background-color: var(--border-color);
+   
 }

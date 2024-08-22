@@ -8,8 +8,9 @@ const SeansRecord = ()=>{
     return(
         <div>
             <Navbar></Navbar>
+            <div className="page">
 
-            Seans record
+            </div>
             <Footer></Footer>
 
 

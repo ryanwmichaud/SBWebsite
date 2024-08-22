@@ -1,12 +1,17 @@
 
 :root{
   --secondary-color: white;
-  --primary-color: #486cb5;
+  --primary-color: #29457e;
   --link-hover: #292929;
   --mobile-menu-color: #292929;
   --border-color: #b53a3a;
 
 }
 
+p, a, button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-
+a{
+  text-decoration: none;
+}
