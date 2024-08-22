@@ -30,6 +30,12 @@ const Home = ()=>{
 
                 <a className="donate-button" href="https://secure.actblue.com/donate/repbrennan"> Donate </a>
 
+                <div className="email-signup">
+                    <form>
+                        
+                    </form>
+
+                </div>
 
 
 

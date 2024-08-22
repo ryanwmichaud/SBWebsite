@@ -59,6 +59,8 @@
     border-style: solid;
     border-width: 2px;
     border-bottom-color: var(--primary-color);
+    transition: border-bottom-color 0.2s ;
+
     
 }
   
@@ -132,10 +134,13 @@
     border-bottom-style: solid;
     border-bottom-color: rgb(66, 66, 66);
     border-width: 2px;
+    transition: color 0.2s ;
+
 
 }
 .mobile-menu-navbar-link:hover{
     color: #cfbc29
+   
 }
 
   
