@@ -9,8 +9,9 @@ const Contact = ()=>{
         <div>
             <Navbar></Navbar>
 
-
-            Contact
+            <div className="page">
+                contact
+            </div>
             <Footer></Footer>
 
         </div>

@@ -1,7 +1,9 @@
 import './Global.css';
 import './components/Navbar.css'
 import './components/Footer.css'
+import './components/GetInvolved.css'
 import './pages/pages.css'
+
 
 import Home from './pages/Home';
 import AboutSean from './pages/AboutSean'

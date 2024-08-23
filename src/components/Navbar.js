@@ -22,7 +22,7 @@ const Navbar = () =>{
             <div className='navbar-link-container'>
                 <Link className="navbar-link" to={"/"}>HOME</Link>
                 <Link className="navbar-link" to={"/aboutsean"}>ABOUT SEAN</Link>
-                <Link className="navbar-link" to={"/seansrecord"}>SEAN'S RECORD</Link>
+                <a className="navbar-link donate" href="https://secure.actblue.com/donate/repbrennan"> DONATE </a>
                 <button className="navbar-link" onClick={toggleMobileMenuOpen}>MORE</button>
 
             </div>

@@ -1,0 +1,19 @@
+
+.get-involved{
+    background-color: white;
+    border-bottom: 2px solid var(--border-color);
+    border-top: 2px solid var(--border-color);
+    color: black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+   
+}
+
+.form-field{
+}
+
