@@ -25,13 +25,14 @@ const GetInvolved = () => {
 
     return (
         <div className="get-involved">
-            <p>Get involved </p>
+            <p className='get-involved-title'>GET INVOLVED </p>
         
             <form onSubmit={handleSubmit}>
                 <div className="form">
                     <div className='form-field'>
-                        <label htmlFor="firstname">firstname:</label>
+                        <label className="field-label" htmlFor="firstname">First Name:</label>
                         <input
+                            className="field-input"
                             type='text'
                             id="signup-firstname"
                             name="firstname"
@@ -41,8 +42,9 @@ const GetInvolved = () => {
                         />
                     </div>
                     <div className='form-field'>
-                        <label htmlFor="lastname">lastname:</label>
+                        <label className="field-label" htmlFor="lastname">Last Name:</label>
                         <input
+                            className="field-input"
                             type="lastname"
                             id="signup-lastname"
                             name="lastname"
@@ -52,8 +54,9 @@ const GetInvolved = () => {
                         />
                     </div>
                     <div className='form-field'>
-                        <label htmlFor="email">email:</label>
+                        <label className="field-label" htmlFor="email">Email:</label>
                         <input
+                            className="field-input"
                             type="email"
                             id="signup-email"
                             name="email"
@@ -62,10 +65,11 @@ const GetInvolved = () => {
                             placeholder="Email"
                         />
                     </div>
-                    {error && <p className="error">{error}</p>}
-                    <button type="submit">Sign Up</button>
-                    
+                    <button className="get-involved-submit" type="submit">Sign Up</button>
+
                 </div>
+                {error && <p className="error">{error}</p>}
+
                 
             </form>
             <div className='email-message'> {submitted ?  "Thank you for signing up" : error ? "error" : "" } </div>

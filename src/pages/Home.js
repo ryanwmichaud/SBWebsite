@@ -20,6 +20,8 @@ const Home = ()=>{
             <Navbar></Navbar>
             <div className="page" > 
 
+                <p className="home-title">Reelect State Representative Sean Brennan</p>
+
                 <div className="top">
                     <img src="./portrait.jpg" 
                     alt="Sean Brennan Official Portrait" 

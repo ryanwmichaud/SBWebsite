@@ -1,19 +1,63 @@
 
 .get-involved{
+    
     background-color: white;
     border-bottom: 2px solid var(--border-color);
-    border-top: 2px solid var(--border-color);
+    border-top: 3px solid var(--border-color);
     color: black;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    min-height: 400px;
+    
+}
+
+.get-involved-title{
+    color: #8f8f42;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .form{
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 20px;
+    width: 400px;
+    margin-left: 50px;
    
 }
 
+
+
 .form-field{
+    padding: 4px;
+    margin: 2px;
+  
 }
+
+.field-label{
+    font-size: 17px;
+}
+.field-input{
+    margin-left: 7px;
+    
+}
+.get-involved-submit{
+    width: 100px;
+}
+
+@media (max-width: 690px) {
+    .get-involved{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .form{
+        align-items: left;
+    }
+}
+
+
 
