@@ -20,7 +20,7 @@ const Home = ()=>{
             <Navbar></Navbar>
             <div className="page" > 
 
-                <p className="home-title">Reelect State Representative Sean Brennan</p>
+                <p className="home-title">Re-Elect State Representative Sean Brennan</p>
 
                 <div className="top">
                     <img src="./portrait.jpg" 
@@ -32,11 +32,7 @@ const Home = ()=>{
                     </p>
 
                 </div>
-            </div>
 
-            <GetInvolved></GetInvolved>
-                
-            <div className="bottom-page" > 
                 <div className="video">
                     <iframe                    
                         src={`https://www.youtube.com/embed/${videoId}`}
@@ -45,13 +41,22 @@ const Home = ()=>{
                         title="Embedded YouTube Video"
                     ></iframe>
                 </div>
+            </div>
+
+            <GetInvolved></GetInvolved>
+                
+            <div className="bottom-page" > 
+                
                  
                    
 
                 <a className="donate-button" href="https://secure.actblue.com/donate/repbrennan"> Donate </a>
-
-                <embed src={newsletterLink} width="500" height="375"  type="application/pdf"/> 
-                
+                <div className="newsletter-container">
+                    <p className="newsletter-title">Sean's Latest Newsletter</p>
+                    <embed className="newsletter" src={newsletterLink} width="500" height="375"  type="application/pdf"/> 
+                    
+                    <a className="newsletter-link" href="https://ohiohouse.gov/members/sean-p-brennan/newsletters">View Previous News Letters</a>
+                </div>
                 
                 
 

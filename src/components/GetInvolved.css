@@ -16,7 +16,7 @@
 }
 
 .get-involved-title{
-    color: #8f8f42;
+    color: var(--gold);
     font-weight: bold;
     font-size: 40px;
 }
@@ -33,7 +33,6 @@
 
 
 .form-field{
-    padding: 4px;
     margin: 2px;
   
 }
